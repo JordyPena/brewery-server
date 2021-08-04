@@ -6,7 +6,7 @@ const app = express();
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {
-  res.send('Hello Express second attempt!');
+  res.send('Hello Express running in dev mode');
 })
 
 app.listen((8000), () => {
